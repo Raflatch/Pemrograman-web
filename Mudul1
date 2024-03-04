@@ -1,0 +1,137 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengenalan HTML Dasar</title>
+</head>
+<body>
+    <Strong>Praktikum Pemrograman Web Informatika</Strong>
+    <hr>
+
+    <h1>Pengenalan HTML Tingkat Dasar</h1>
+    <hr>
+
+    <!-- Element Block Level -->
+<div>
+    <h2>Element Block Level</h2>
+    <hr>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis maiores, nam consequatur libero debitis numquam, unde itaque repudiandae eius fugit, obcaecati qui quis minima nemo quaerat sint. Veniam, est hic!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui alias id nesciunt blanditiis voluptate? Vel ducimus eaque et dolores. Vero harum soluta nemo debitis porro totam voluptatem magni deserunt beatae?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum quod perspiciatis nobis non temporibus. Laudantium vitae error vero eum alias natus ducimus! Pariatur neque eaque ducimus fugiat, ab similique a.</p>
+    </div><div>Semangat</div><p>Terus Belajar!</p>
+</div>
+
+    <!-- Element Inline Level -->
+    <div>
+        <h2>Element Inline Level</h2>
+        <hr>
+        <div>
+            <p>Lorem ipsum dolor <strong>sit amet consectetur adipisicing elit</strong> . Quae dolore earum, at exercitationem blanditiis ad cumque natus omnis nemo delectus eaque ratione veniam maiores. Harum doloremque natus numquam rerum eveniet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur <em>adipisicing elit. Quas aperiam obcaecati tempore enim pariatur quisquam. Eius consectetur officia at</em>, iste alias error totam repellendus ratione, culpa quas, adipisci inventore <span>Terus Belajar!</span></p>
+        </div><div>Semangat!</div>
+    </div>
+
+    <!-- Element Text Formatting -->
+    <div>
+        <h2>Element Text Formatting</h2>
+        <hr>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea delectus nam iure. Minus culpa, nemo earum recusandae laboriosam quas nisi tenetur incidunt iusto iste consectetur, molestiae eligendi. Accusantium, neque facilis.</p>
+        <a href=""></a>
+        <br><br>
+          <div>
+        <b>bold text</b>
+        <strong>Strong text</strong>
+        <i>Italic Text</i>
+        <em>Emphasize Text</em>
+        <p><mark>Lorem</mark>ipsum, dolor sit amet consectetur.</p>
+        <small>Smaller Text</small>
+        <del>Deleted Text</del>
+        <ins>Inserted Text</ins>
+        <sub>Subscript Text</sub>
+        <sup>Superscript Text</sup>
+     </div>
+    </div>
+
+    <!-- Element List -->
+    <div>
+        <h2>Element List</h2>
+        <hr>
+        <div>
+            <h3>Ordered List</h3>
+            <ol type="1">
+                <li>Senin</li>
+                <li>Selasa</li>
+                <li>Rabu</li>
+                <li>Kamis</li>
+                <li>Jumat</li>
+                <li>Sabtu</li>
+                <li>Ahad</li>
+            </ol>
+        </div>
+        <div>
+            <h3>Unordered List</h3>
+            <ul style="list-style: disc;">
+                <li>Meja</li>
+                <li>Kursi</li>
+                <li>Papan Tulis</li>
+                <li>TV</li>
+                <li>Tas</li>
+                <li>AC</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Description List</h3>
+            <dl>
+                <dt>Title 1</dt>
+                <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio animi, dolores earum corrupti illo, deleniti itaque dolor eveniet molestiae minus repudiandae voluptates asperiores quos, porro magni dignissimos? Similique, illum non.</dd>
+            </dl>
+        </div>
+    </div>
+
+    <!-- Element Image -->
+    <div>
+        <h2>Element Image</h2>
+        <hr>
+        <!-- Relative Path -->
+        <img src="assets/logo-if.png" width="100" height="100" alt="Logo Informatika" title="Logo Informatika">
+
+        <!-- Absolute Path -->
+        <img src="https://img.freepik.com/free-vector/realistic-background-indonesia-independence-day-celebration_23-2150597694.jpg?size=626&ext=jpg" width="100" height="100" alt="Logo HUT RI">
+
+        <div>
+            <h3>Link Dengan Image</h3>
+            <a href="https://google.com" target="_blank">
+                <img src="https://img.freepik.com/free-vector/start_53876-25533.jpg" width="100" height="100" alt="Logo Bintang Kuning" title="Logo Bintang">
+            </a>
+        </div>
+    </div>
+
+    <!-- Element Audio -->
+    <div>
+        <h2>Element Audio</h2>
+        <hr>
+        <audio controls>
+            <source src="assets/birds.mp3" type="audio/mpeg">
+            Your browser does not support the audio Element.
+        </audio>
+  </div>
+
+    <!-- Element Video -->
+    <div>
+        <h2>Element Video</h2>
+        <hr>
+        <video width="320" height="240" controls>
+            <source src="assets/butterfly.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>
